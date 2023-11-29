@@ -16,7 +16,7 @@ require("lightgbm")
 PARAM <- list()
 PARAM$experimento <- "KA8240"
 
-PARAM$input$dataset <- "./datasets/competencia_02.csv.gz"
+PARAM$input$dataset <- "./datasets/competencia_03.csv.gz"
 
 # meses donde se entrena el modelo
 PARAM$input$training <- c(
